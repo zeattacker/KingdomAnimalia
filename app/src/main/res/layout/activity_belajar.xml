@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="app.android.kingdomanimalia.BelajarActivity">
+
+    <ImageButton
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/btnBackPengantar"
+        android:background="@drawable/bg_back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/bg_transparent"
+        android:layout_above="@+id/btnBackPengantar"
+        android:padding="@dimen/_15sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/belajar_1"
+                android:id="@+id/btnBelajar1" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/belajar_2"
+                android:id="@+id/btnBelajar2" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/belajar_3"
+                android:id="@+id/btnBelajar3" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/belajar_4"
+                android:id="@+id/btnBelajar4" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/belajar_5"
+                android:id="@+id/btnBelajar5" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/belajar_6"
+                android:id="@+id/btnBelajar6" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/belajar_7"
+                android:id="@+id/btnBelajar7" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/belajar8"
+                android:id="@+id/btnBelajar8" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
